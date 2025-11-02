@@ -70,9 +70,9 @@ int main() {
     PIB_per_capita2 = ((PIB2*1000000000)/populacao2);
     //fim dos cáculos e valores guardados
 
-    printf("\n===== RESULTADO =====\n");//exibe o resultado do cadastro das cartas
+    printf("\n=============== RESULTADO ==============\n\n");//exibe o resultado do cadastro das cartas
     //Exibe as informaçoes cadastradas para carta 1
-    printf("CARTA 1\n");
+    printf("CARTA 1\n\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", cod_carta1);
     printf("Cidade: %s\n", cidade1);
@@ -85,7 +85,7 @@ int main() {
     //fim da a exibição das informções da carta 1
     
     //Exibe as informações guardadas para carta 2 
-    printf("CARTA 2\n");
+    printf("CARTA 2\n\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", cod_carta2);
     printf("Cidade: %s\n", cidade2);
@@ -94,7 +94,7 @@ int main() {
     printf("PIB: %.2f Bilhões de reais\n", PIB2);
     printf("Pontos Turísticos: %i\n", num_ponto_turistico2);
     printf("Densidade Populacional: %.2f hab/Km²\n ", densidade_populacional2);
-    printf("PIB per capita: %.2f reais\n", PIB_per_capita2);
+    printf("PIB per capita: %.2f reais\n\n", PIB_per_capita2);
     //finaliza a exibição das informações da carta 2
     return 0;//encerra o programaA
 }
